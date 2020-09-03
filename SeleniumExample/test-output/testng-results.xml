@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44399" started-at="2020-08-19T20:03:18Z" finished-at="2020-08-19T20:04:02Z">
+    <groups>
+      <group name="patientmodule">
+        <method signature="LoginPatientTests.Login(java.lang.String, java.lang.String)[pri:0, instance:org.iit.mmp.patientmodule.tests.LoginPatientTests@119c9d2]" name="Login" class="org.iit.mmp.patientmodule.tests.LoginPatientTests"/>
+      </group> <!-- patientmodule -->
+      <group name="regression">
+        <method signature="LoginPatientTests.Login(java.lang.String, java.lang.String)[pri:0, instance:org.iit.mmp.patientmodule.tests.LoginPatientTests@119c9d2]" name="Login" class="org.iit.mmp.patientmodule.tests.LoginPatientTests"/>
+      </group> <!-- regression -->
+      <group name="US_001">
+        <method signature="LoginPatientTests.Login(java.lang.String, java.lang.String)[pri:0, instance:org.iit.mmp.patientmodule.tests.LoginPatientTests@119c9d2]" name="Login" class="org.iit.mmp.patientmodule.tests.LoginPatientTests"/>
+      </group> <!-- US_001 -->
+      <group name="sanity">
+        <method signature="LoginPatientTests.Login(java.lang.String, java.lang.String)[pri:0, instance:org.iit.mmp.patientmodule.tests.LoginPatientTests@119c9d2]" name="Login" class="org.iit.mmp.patientmodule.tests.LoginPatientTests"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="44399" started-at="2020-08-19T20:03:18Z" finished-at="2020-08-19T20:04:02Z">
+      <class name="org.iit.mmp.patientmodule.tests.LoginPatientTests">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:org.iit.mmp.patientmodule.tests.LoginPatientTests@119c9d2]" name="Login" duration-ms="43210" started-at="2020-08-19T20:03:19Z" description="US_001 Login to the app as a Patient" data-provider="testData" finished-at="2020-08-19T20:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ria1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ria12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- org.iit.mmp.patientmodule.tests.LoginPatientTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
